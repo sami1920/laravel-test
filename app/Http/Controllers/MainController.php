@@ -41,6 +41,6 @@ class MainController extends Controller
 
     public function thankYou()
     {
-        return view('thankyou');
+        return view('thank-you');
     }
 }
