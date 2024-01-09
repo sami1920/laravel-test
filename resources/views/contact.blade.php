@@ -26,6 +26,7 @@
 
     <div class="container py-4">
         <form method="POST" action="{{ route('form') }}">
+            @csrf
             <div class="col-12">
                 <div class="form-floating mb-3">
                     <input id="name" type="text" class="form-control{{ $errors->has('name') ? ' is-invalid' : '' }}"
