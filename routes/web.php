@@ -20,6 +20,6 @@ Route::controller(MainController::class)->group(function () {
     Route::get('/', 'index')->name('home');
     Route::get('/about', 'about')->name('about');
     Route::get('/contact', 'contact')->name('contact');
-    Route::put('/form', 'storeMessage')->name('form');
-    Route::put('/thank-you', 'thankYou')->name('thank-you');
+    Route::post('/form', 'storeMessage')->name('form');
+    Route::get('/thank-you', 'thankYou')->name('thank-you');
 });
