@@ -43,7 +43,7 @@
 
     <div class="container py-4 text-center">
         <h1>Welcome</h1>
-        <button type="button" class="btn btn-primary" data-bs3-toggle="modal" data-bs-target="#exampleModal">
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
             <i class="bi-bi-0-circle"></i>
             View Offer
         </button>
