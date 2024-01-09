@@ -36,7 +36,7 @@ class MainController extends Controller
             'content' => $request->input('content'),
         ]);
 
-        return redirect()->route('thank-you-page');
+        return redirect()->route('thank-you');
     }
 
     public function thankYou()
