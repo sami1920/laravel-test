@@ -41,7 +41,7 @@
 
                 <div class="form-floating mb-3">
                     <input id="email" type="email"
-                        class="form-control {{ $errors->has('email') ? ' is-invalid' : '' }}" name="email_field"
+                        class="form-control {{ $errors->has('email') ? ' is-invalid' : '' }}" name="email"
                         placeholder="{{ __('E-Mail**') }}" value="{{ old('email') }}" required>
                     <label for="email">{{ __('E-Mail*') }}</label>
                     @if ($errors->has('email'))
